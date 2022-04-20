@@ -1,0 +1,77 @@
+.login-background{
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+    height:100vh;
+    .login-container{
+        width: 400px;
+        border: 2px solid #c4adad;
+        background: white;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 450px;
+        margin: auto;
+        .login-content{
+            padding: 10px;
+            .text-login{
+                font-size: 24px;
+                font-weight:700;
+                
+            }
+            .login-input{
+                position: relative;
+                margin: 7px 0;
+                .eye{
+                    position: absolute;
+                    top: 30px;
+                    right: 20px;
+                }
+            }
+            .btn-login{
+                width: 100%;
+                height: 30px;
+                border-radius: 15px;
+                border: none;
+                outline: none;
+                color: white;
+                font-size:15px;
+                background: linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+            }
+            .forgot-password{
+                font-size:12px;
+            }
+            .social-login{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                .google{
+                    background: #c32424;
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin:10px;
+                    font-size:30px;
+                }
+                .facebook{
+                    background: #307aff;
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size:30px;
+                }
+            }
+        }
+    }
+    
+}
+.errMessage{
+    color:red;
+}
